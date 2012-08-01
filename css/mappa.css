@@ -1,0 +1,17 @@
+/* 
+    Document   : mappa
+    Created on : 3-lug-2012, 11.28.12
+    Author     : valerio
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#mappa{
+			width: 700px;
+			height: 550px;
+		}
+		.map-info{
+			font-family: Verdana;
+			font-size: 13px;
+			width: 300px;
+		}

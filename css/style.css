@@ -1,0 +1,100 @@
+/* 
+    Document   : style
+    Created on : 11-lug-2012, 0.02.29
+    Author     : valerio
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+body {
+	background-color: whitesmoke;
+	font: 12px "Lucida Grande" ,Verdana, sans-serif;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+h1,h2,h3,h4,h5 {font-family: Georgia,serif;}
+blockquote { font-style: italic; }
+blockquote>p {text-indent:20px}
+
+#header {
+    background-color: #0C6;
+	border-bottom: 1px solid #000;
+        border-left: 1px solid green;
+	border-right: 1px solid green;
+        height: 50px;
+}
+#login {
+    float: right;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 30px;
+	width: 520px;
+	left: 600px;
+	top: -7px;
+	height: 47px;
+}
+#utente-loggato{
+    float: right;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 30px;
+	width: 300px;
+	left: 240px;
+	top: 0px;
+	height: 45px;
+}
+
+
+#menu {
+    text-align: center;
+    background-color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#footer {
+	border-top: 1px solid #000;
+        margin-top: 1px;
+	clear: both;
+	text-align: center;
+}
+
+#contenitore {
+	float: right;
+        margin-top: 10px;
+        border-left: 1px solid black;
+}
+
+#user_info {
+	float: left;
+	width: 200px;
+        margin-top: 10px;
+}
+
+#contenuto {
+	float:left;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 0 20px;
+	width:492px;
+        border-right: 1px solid black;
+}
+
+#widget {
+	float:right;
+	width:200px;
+        margin-top: -10px;
+}
+
+
+#lastuser {
+    background-color: white;
+    margin-top: 10px;
+}
+
+#utenti_iscritti {
+    margin-top: 5px;
+}
